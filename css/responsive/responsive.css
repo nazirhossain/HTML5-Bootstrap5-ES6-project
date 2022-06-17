@@ -1,0 +1,134 @@
+/* xs */
+ @media only screen and (min-width: 50px) and (max-width: 480px)  {
+	.about-page-title {
+		width: 94%;
+	}
+   .container-fluid {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	.heading-text {
+		font-size: 6vw;
+	}
+	.personal-card {
+		transform: skewY(0deg) !important;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+	.about-page-title {
+		width: 100% !important;
+		padding: 10px;
+	}.header-heading {
+		padding: 0;
+		margin-top: 0;
+	}
+}
+  /* sm */
+ @media only screen and (min-width: 481px) and (max-width: 576px)  {
+	.container-fluid {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.personal-card img {
+		width: 100%;
+	}
+	.personal-card {
+		transform: skewY(0deg) !important;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+	.about-page-title {
+		width: 100% !important;
+		padding: 10px;
+	}
+	}.header-heading {
+		padding: 0;
+		margin-top: 0;
+	}
+}
+  /* sm */
+ @media only screen and (min-width: 577px) and (max-width: 768px)  {
+	.container-fluid {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.heading-text {
+		font-size: 4vw;
+	}
+	.personal-card img {
+		width: 100%;
+	}
+	.personal-card {
+		transform: skewY(0deg) !important;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+	.about-page-title {
+		width: 100% !important;
+		padding: 10px;
+	}
+	}.header-heading {
+		padding: 0;
+		margin-top: 0;
+	}
+}
+  /* md */
+ @media only screen and (min-width: 769px) and (max-width: 992px)  {
+	.form-control-50 {
+		width: 100%; 
+		transition: 0.3s;
+	}
+	.ms-3 {
+		margin-left: 0;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+	}.header-heading {
+		padding: 0;
+		margin-top: 0;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+}
+  /* lg */
+ @media only screen and (min-width: 993px) and (max-width: 1200px)  {
+
+	img.logo-image {
+		max-width: 100%;
+	}
+  }
+  /* xl */
+ @media only screen and (min-width: 993px) and (max-width: 1376px)  {
+
+	img.logo-image {
+		max-width: 70%;
+	}
+  }
+  /* xxl */
+ @media only screen and (min-width: 993px) and (max-width: 2000px)  {
+	img.logo-image {
+		max-width: 70%;
+	}  
+}
+  @media screen and (orientation: landscape) { 
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}	
+}
+
+@media screen and (orientation: portrait) {
+	body {
+		background-color:orange;
+	}
+	img.logo-image {
+		max-width: 50%;
+	}
+}
